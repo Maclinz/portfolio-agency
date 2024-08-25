@@ -3,31 +3,78 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --colour--bg-1: #181818;
+  --colour--bg-2: #212121;
+  --colour--bg-3: #252525;
+  --colour--bg-4: #323232;
+  --colour--border-1: #323232;
+  --colour--border-2: #2a2a2a;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--colour--bg-1);
+  @apply text-gray-300;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h3 {
+  @apply text-2xl font-bold text-gray-200;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--colour--bg-4);
+  border-radius: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--colour--bg-2);
+}
+
+h1 {
+  @apply text-3xl font-bold text-white;
+}
+
+.gradient-purple {
+  display: inline-block;
+  background: radial-gradient(
+    80.97% 80.37% at 56.01% 19.03%,
+    rgb(151, 89, 245) 0%,
+    rgb(114, 99, 243) 99.23%
+  );
+}
+
+.cta-button {
+  @apply inline-block px-8 py-4 text-white font-semibold bg-gradient-to-r from-purple-500 to-indigo-500 rounded-[2rem] overflow-hidden;
+}
+
+.blob {
+  position: absolute;
+  bottom: -4rem;
+  right: -3.5rem;
+  width: 6rem;
+  height: 6rem;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.4s ease-in-out;
+}
+
+.cta-button:hover .blob {
+  transform: scale(1.8);
+}
+
+.cta-button:hover {
+  @apply bg-gradient-to-r from-purple-600 to-indigo-600;
+}
+
+.mouse-animation {
+  @apply w-[38px] h-[68px] border rounded-full animate-bounce;
+}
+
+/*Media Queries*/
+.mq-sections {
+  @apply px-6 md:px-8 lg:px-16 xl:px-[18rem];
 }
