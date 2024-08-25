@@ -168,3 +168,77 @@ export const faqs = [
       "We work with a wide range of technologies including React, Angular, Node.js, Python, and more.",
   },
 ];
+
+export const footerNavLinks = [
+  {
+    title: "About Us",
+    links: [
+      {
+        name: "Home",
+        url: "/",
+      },
+      {
+        name: "Services",
+        url: "/services",
+      },
+      {
+        name: "About",
+        url: "/about",
+      },
+      {
+        name: "Portfolio",
+        url: "/portfolio",
+      },
+      {
+        name: "FAQs",
+        url: "/faqs",
+      },
+      {
+        name: "Contact",
+        url: "/contact",
+      },
+    ],
+  },
+  {
+    title: "Services",
+    links: [
+      {
+        name: "Web Development",
+        url: "/web-development",
+      },
+      {
+        name: "Mobile Development",
+        url: "/mobile-development",
+      },
+      {
+        name: "UI/UX Design",
+        url: "/ui-ux-design",
+      },
+      {
+        name: "SEO",
+        url: "/seo",
+      },
+      {
+        name: "Social Media Marketing",
+        url: "/social-media-marketing",
+      },
+    ],
+  },
+  {
+    title: "Contact Info",
+    links: [
+      {
+        name: "Email",
+        email: "info@testmail.com",
+      },
+      {
+        name: "Phone",
+        phone: "+1234567890",
+      },
+      {
+        name: "Address",
+        address: "123, Street Name, City, Country",
+      },
+    ],
+  },
+];

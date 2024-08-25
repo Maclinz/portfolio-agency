@@ -20,6 +20,11 @@ h3 {
   @apply text-2xl font-bold text-gray-200;
 }
 
+input,
+textarea {
+  @apply bg-transparent border-2 border-colour-2 rounded-xl;
+}
+
 body::-webkit-scrollbar {
   width: 7px;
 }
