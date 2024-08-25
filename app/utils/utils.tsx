@@ -135,3 +135,36 @@ export const awards = [
     link: "https://www.awwwards.com/",
   },
 ];
+
+export const faqs = [
+  {
+    question: "What is the best way to reach you?",
+    answer:
+      "The best way to reach us is by sending us an email at testmail@gmail.com.",
+  },
+  {
+    question: "What services do you offer?",
+    answer:
+      "We offer a wide range of services including web development, mobile app development, and digital marketing.",
+  },
+  {
+    question: "How long does it take to complete a project?",
+    answer:
+      "The time it takes to complete a project depends on the size and complexity of the project. We will provide you with a timeline once we have a better understanding of your requirements.",
+  },
+  {
+    question: "What is your pricing model?",
+    answer:
+      "Our pricing model is based on the scope and complexity of the project. We will provide you with a detailed quote once we have a better understanding of your requirements.",
+  },
+  {
+    question: "Do you offer maintenance and support services?",
+    answer:
+      "Yes, we offer maintenance and support services to ensure that your digital products continue to perform optimally.",
+  },
+  {
+    question: "What technologies do you work with?",
+    answer:
+      "We work with a wide range of technologies including React, Angular, Node.js, Python, and more.",
+  },
+];
