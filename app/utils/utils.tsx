@@ -20,23 +20,23 @@ export const navLinks = [
   },
   {
     name: "Services",
-    url: "/services",
+    url: "#",
   },
   {
     name: "About",
-    url: "/about",
+    url: "#",
   },
   {
     name: "Portfolio",
-    url: "/portfolio",
+    url: "#",
   },
   {
     name: "FAQs",
-    url: "/faqs",
+    url: "#",
   },
   {
     name: "Contact",
-    url: "/contact",
+    url: "#",
   },
 ];
 
@@ -179,23 +179,23 @@ export const footerNavLinks = [
       },
       {
         name: "Services",
-        url: "/services",
+        url: "#",
       },
       {
         name: "About",
-        url: "/about",
+        url: "#",
       },
       {
         name: "Portfolio",
-        url: "/portfolio",
+        url: "#",
       },
       {
         name: "FAQs",
-        url: "/faqs",
+        url: "#",
       },
       {
         name: "Contact",
-        url: "/contact",
+        url: "#",
       },
     ],
   },
@@ -204,7 +204,7 @@ export const footerNavLinks = [
     links: [
       {
         name: "Web Development",
-        url: "/web-development",
+        url: "#",
       },
       {
         name: "Mobile Development",
@@ -212,15 +212,15 @@ export const footerNavLinks = [
       },
       {
         name: "UI/UX Design",
-        url: "/ui-ux-design",
+        url: "#",
       },
       {
         name: "SEO",
-        url: "/seo",
+        url: "#",
       },
       {
         name: "Social Media Marketing",
-        url: "/social-media-marketing",
+        url: "#",
       },
     ],
   },
