@@ -27,7 +27,17 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={rubik.className}>{children}</body>
+      <body className={rubik.className}>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=GTM-PMNVKZTC`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }
