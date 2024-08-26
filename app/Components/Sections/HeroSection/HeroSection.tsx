@@ -93,7 +93,7 @@ function HeroSection() {
                 thrive.
               </p>
               <div className="relative cta-button self-start">
-                <Link href="#" className="flex items-center gap-4">
+                <Link href="/services" className="flex items-center gap-4">
                   <span>Explore More</span>
                   {arrowRight}
                   <span className="blob"></span>
@@ -101,7 +101,7 @@ function HeroSection() {
               </div>
             </div>
             <Link
-              href="#"
+              href="/services"
               className="hidden mouse-animation lg:flex justify-center items-center"
             >
               <Image
