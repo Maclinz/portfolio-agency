@@ -204,7 +204,7 @@ export const footerNavLinks = [
     links: [
       {
         name: "Web Development",
-        url: "#",
+        url: "/web-development",
       },
       {
         name: "Mobile Development",
@@ -212,15 +212,15 @@ export const footerNavLinks = [
       },
       {
         name: "UI/UX Design",
-        url: "#",
+        url: "/ui-ux-design",
       },
       {
         name: "SEO",
-        url: "#",
+        url: "/seo",
       },
       {
         name: "Social Media Marketing",
-        url: "#",
+        url: "/social-media-marketing",
       },
     ],
   },
