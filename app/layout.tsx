@@ -45,7 +45,7 @@ export default function RootLayout({
       <body className={rubik.className}>
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NW7ZNK9Q"
+            src={`https://www.googletagmanager.com/ns.html?id=GTM-GTM-NW7ZNK9Q`}
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
