@@ -26,7 +26,7 @@ function ScrollingText({ direction }: ScrollingTextProps) {
           return (
             <span
               key={index}
-              className={`px-4 pr-12 inline-block align-middle ${
+              className={`scrolling-text px-4 pr-12 inline-block align-middle ${
                 text.outline || ""
               } `}
             >

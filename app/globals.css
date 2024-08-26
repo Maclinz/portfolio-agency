@@ -51,6 +51,10 @@ h1 {
   );
 }
 
+.scrolling-text {
+  line-height: 1.2;
+}
+
 .cta-button {
   @apply inline-block px-8 py-4 text-white font-semibold bg-gradient-to-r from-purple-500 to-indigo-500 rounded-[2rem] overflow-hidden;
 }

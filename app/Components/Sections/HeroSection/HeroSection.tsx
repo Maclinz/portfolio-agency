@@ -17,7 +17,7 @@ function HeroSection() {
 
   return (
     <section className="relative h-full w-full">
-      <div className="absolute w-full h-[100vh] top-0 flex justify-evenly z-[-1]">
+      <div className="absolute w-full h-[100vh] top-[-120px] md:top-0 flex justify-evenly z-[-1]">
         {arr.map((_, i) => {
           return (
             <div key={i} className="relative w-[1px] h-full bg-2">
