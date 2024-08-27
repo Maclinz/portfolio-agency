@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { baseText } from "@/app/utils/utils";
+import { baseText } from "@/utils/utils";
 
 interface ScrollingTextProps {
   direction?: "left" | "right";

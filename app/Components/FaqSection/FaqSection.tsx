@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Title from "../Title/Title";
-import { faqs } from "@/app/utils/utils";
-import { chevronDown } from "@/app/utils/Icons";
+import { faqs } from "@/utils/utils";
+import { chevronDown } from "@/utils/Icons";
 import { motion } from "framer-motion";
 
 function FaqSection() {

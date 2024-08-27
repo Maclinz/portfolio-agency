@@ -1,5 +1,5 @@
-import { facebook, instagram, linkedin, messenger, x } from "@/app/utils/Icons";
-import { footerNavLinks } from "@/app/utils/utils";
+import { facebook, instagram, linkedin, messenger, x } from "@/utils/Icons";
+import { footerNavLinks } from "@/utils/utils";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import Image from "next/image";
 import Link from "next/link";

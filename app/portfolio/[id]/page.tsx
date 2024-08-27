@@ -1,6 +1,6 @@
 import FooterSection from "@/app/Components/Sections/FooterSection/FooterSection";
 import Title from "@/app/Components/Title/Title";
-import portfolios from "@/app/utils/portfolios";
+import portfolios from "@/utils/portfolios";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

@@ -1,9 +1,9 @@
 import React from "react";
 import Title from "../../Title/Title";
-import { check } from "@/app/utils/Icons";
+import { check } from "@/utils/Icons";
 import Button from "../../Button/Button";
 import Image from "next/image";
-import { aboutStats } from "@/app/utils/utils";
+import { aboutStats } from "@/utils/utils";
 
 function AboutSection() {
   return (

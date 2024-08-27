@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Title from "../../Title/Title";
-import portfolios from "@/app/utils/portfolios";
+import portfolios from "@/utils/portfolios";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";

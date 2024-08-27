@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../../Title/Title";
-import { services } from "@/app/utils/utils";
-import { check } from "@/app/utils/Icons";
+import { services } from "@/utils/utils";
+import { check } from "@/utils/Icons";
 
 function ServicesSection() {
   return (

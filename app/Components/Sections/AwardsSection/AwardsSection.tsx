@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../../Title/Title";
-import { awards } from "@/app/utils/utils";
+import { awards } from "@/utils/utils";
 import AwardCard from "../../AwardCard/AwardCard";
 
 function AwardsSection() {

@@ -1,6 +1,6 @@
 "use client";
-import { arrowRight, email, phone, search } from "@/app/utils/Icons";
-import { navLinks } from "@/app/utils/utils";
+import { arrowRight, email, phone, search } from "@/utils/Icons";
+import { navLinks } from "@/utils/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
