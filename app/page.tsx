@@ -1,4 +1,4 @@
-import FaqSection from "./Components/FaqSection/FaqSection";
+import FaqSection from "./Components/Sections/FaqSection/FaqSection";
 import ScrollingText from "./Components/ScrollingText/ScrollingText";
 import AboutSection from "./Components/Sections/AboutSection/AboutSection";
 import AwardsSection from "./Components/Sections/AwardsSection/AwardsSection";

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Title from "../Title/Title";
+import Title from "../../Title/Title";
 import { faqs } from "@/utils/utils";
 import { chevronDown } from "@/utils/Icons";
 import { motion } from "framer-motion";
